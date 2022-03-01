@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.Styles
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-size: large;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Start
+{
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 { 
+    color:black;
+     font-family: 'Raleway',sans-serif; 
+     font-size: 62px;
+      font-weight: 800;
+       line-height: 72px; 
+       margin: 0 0 24px;
+        text-align: center;
+         text-transform: uppercase;
+}
+button {
+    border: none;
+    margin: 2px;
+    padding: 100px;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .flexbox
+  {
+    justify-content:center;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
